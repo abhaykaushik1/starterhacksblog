@@ -1,12 +1,14 @@
 [[source]]
-name = "pypi"
-url = "https://pypi.org/simple"
+url = "https://pypi.python.org/simple"
 verify_ssl = true
 
-[dev-packages]
-
 [packages]
+dj-database-url = "*"
 django = "*"
+gunicorn = "*"
+psycopg2 = "*"
+whitenoise = "*"
+requests = "*"
 
 [requires]
 python_version = "3.6"
